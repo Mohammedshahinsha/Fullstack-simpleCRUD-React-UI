@@ -51,36 +51,36 @@ CREATE TABLE students (
 ## Screenshots
 
 ### Student List Page
-![Student List](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/student-list.png)
+![Student List](./images/student-list.png)
 
 ### Add Student Form
-![Add Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/add-student.png)
+![Add Student](./images/add-student.png)
 
 ### Edit Student Form
-![Edit Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/edit-student.png)
+![Edit Student](./images/edit-student.png)
 
 ### Delete Confirmation
-![Delete Confirmation](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/delete-confirmation.png)
+![Delete Confirmation](./images/delete-confirmation.png)
 
 ### Analytics Dashboard
-![Analytics Dashboard](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/analytics.png)
+![Analytics Dashboard](./images/analytics.png)
 
 ## API Screenshots
 
 ### GET All Students
-![GET All Students](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-get-all.png)
+![GET All Students](./images/postman-get-all.png)
 
 ### GET Student by ID
-![GET Student by ID](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-get-by-id.png)
+![GET Student by ID](./images/postman-get-by-id.png)
 
 ### POST Create Student
-![POST Create Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-post.png)
+![POST Create Student](./images/postman-post.png)
 
 ### PUT Update Student
-![PUT Update Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-put.png)
+![PUT Update Student](./images/postman-put.png)
 
 ### DELETE Student
-![DELETE Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-delete.png)
+![DELETE Student](./images/postman-delete.png)
 
 ## Setup and Installation
 
