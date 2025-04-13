@@ -128,6 +128,16 @@ Response (204 No Content):
 ```
 // No response body returned
 ```
+### 1. POST Request
+![POST Request](images/Screenshot_2025-04-13-13-52-20-980_com.android.chrome.jpg)
+
+### 2. GET All Request
+![GET All Request](images/Screenshot_2025-04-13-13-52-47-825_com.android.chrome.jpg)
+
+### 3. GET by ID / Other Request
+![GET by ID](images/Screenshot_2025-04-13-13-52-56-370_com.android.chrome.jpg)
+
+
 
 ## Setup and Installation
 
