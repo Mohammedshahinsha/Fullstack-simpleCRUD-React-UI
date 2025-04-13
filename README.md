@@ -19,6 +19,17 @@ A fullstack student management system with React frontend and Express/PostgreSQL
 ### Analytics Dashboard
 ![Analytics](./images/analytics.png)
 
+## React Demo Screenshots
+
+### Add New Student Form
+![Add New Student Form](./attached_assets/Screenshot_2025-04-13-13-52-20-980_com.android.chrome.jpg)
+
+### Student List View
+![Student List](./attached_assets/Screenshot_2025-04-13-13-52-47-825_com.android.chrome.jpg)
+
+### Analytics View
+![Analytics View](./attached_assets/Screenshot_2025-04-13-13-52-56-370_com.android.chrome.jpg)
+
 ### API Screenshots
 
 #### GET All Students
