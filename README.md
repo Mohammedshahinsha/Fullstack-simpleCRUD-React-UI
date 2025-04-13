@@ -50,20 +50,15 @@ CREATE TABLE students (
 
 ## Screenshots
 
-### Student List Page
-![Student List](./images/student-list.png)
+### Application Screenshot
+![Application Screenshot](./images/app-screenshot.jpg)
 
-### Add Student Form
-![Add Student](./images/add-student.png)
+The Student Management System features a clean, responsive interface with the following components:
 
-### Edit Student Form
-![Edit Student](./images/edit-student.png)
-
-### Delete Confirmation
-![Delete Confirmation](./images/delete-confirmation.png)
-
-### Analytics Dashboard
-![Analytics Dashboard](./images/analytics.png)
+- **Student List**: View all students with search functionality
+- **Add/Edit Forms**: Create and update student records with validation
+- **Delete Confirmation**: Prevent accidental deletions with confirmation dialog
+- **Analytics Dashboard**: View student statistics and metrics
 
 ## API Tests
 
