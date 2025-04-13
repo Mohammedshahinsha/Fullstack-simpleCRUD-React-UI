@@ -1,0 +1,1 @@
+DELETE response code: 204

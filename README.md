@@ -65,22 +65,118 @@ CREATE TABLE students (
 ### Analytics Dashboard
 ![Analytics Dashboard](./images/analytics.png)
 
-## API Screenshots
+## API Tests
 
 ### GET All Students
-![GET All Students](./images/postman-get-all.png)
+
+```http
+GET /api/students HTTP/1.1
+Host: localhost:5000
+Accept: application/json
+```
+
+Response (200 OK):
+```json
+[
+  {
+    "id": 3,
+    "name": "Mohammed shahinsha Abdul Ali",
+    "rollNumber": "727622BAD109 ",
+    "email": "mohammedshahinsha3333@gmail.com",
+    "mobile": "09994814936"
+  },
+  {
+    "id": 4,
+    "name": "Test Student",
+    "rollNumber": "R98765",
+    "email": "test@example.com",
+    "mobile": "1234567890"
+  }
+]
+```
 
 ### GET Student by ID
-![GET Student by ID](./images/postman-get-by-id.png)
+
+```http
+GET /api/students/3 HTTP/1.1
+Host: localhost:5000
+Accept: application/json
+```
+
+Response (200 OK):
+```json
+{
+  "id": 3,
+  "name": "Mohammed shahinsha Abdul Ali",
+  "rollNumber": "727622BAD109 ",
+  "email": "mohammedshahinsha3333@gmail.com",
+  "mobile": "09994814936"
+}
+```
 
 ### POST Create Student
-![POST Create Student](./images/postman-post.png)
+
+```http
+POST /api/students HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+  "name": "Test Student",
+  "rollNumber": "R12345-UNIQUE",
+  "email": "unique-test@example.com",
+  "mobile": "1234567890"
+}
+```
+
+Response (201 Created):
+```json
+{
+  "id": 6,
+  "name": "Test Student",
+  "rollNumber": "R12345-UNIQUE",
+  "email": "unique-test@example.com",
+  "mobile": "1234567890"
+}
+```
 
 ### PUT Update Student
-![PUT Update Student](./images/postman-put.png)
+
+```http
+PUT /api/students/6 HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+  "name": "Updated Test Student",
+  "rollNumber": "R12345-UNIQUE",
+  "email": "unique-test-updated@example.com",
+  "mobile": "9876543210"
+}
+```
+
+Response (200 OK):
+```json
+{
+  "id": 6,
+  "name": "Updated Test Student",
+  "rollNumber": "R12345-UNIQUE",
+  "email": "unique-test-updated@example.com",
+  "mobile": "9876543210"
+}
+```
 
 ### DELETE Student
-![DELETE Student](./images/postman-delete.png)
+
+```http
+DELETE /api/students/6 HTTP/1.1
+Host: localhost:5000
+```
+
+Response (204 No Content):
+```
+// No response body returned
+```
 
 ## Setup and Installation
 
