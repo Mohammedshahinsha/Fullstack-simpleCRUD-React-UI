@@ -128,13 +128,13 @@ Response (204 No Content):
 ```
 // No response body returned
 ```
-### 1. POST Request
+### 1. Creating a new student
 ![POST Request](images/Screenshot_2025-04-13-13-52-20-980_com.android.chrome.jpg)
 
-### 2. GET All Request
+### 2. Student list
 ![GET All Request](images/Screenshot_2025-04-13-13-52-47-825_com.android.chrome.jpg)
 
-### 3. GET by ID / Other Request
+### 3. Analytics
 ![GET by ID](images/Screenshot_2025-04-13-13-52-56-370_com.android.chrome.jpg)
 
 
