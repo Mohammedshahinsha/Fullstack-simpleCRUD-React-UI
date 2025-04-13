@@ -74,36 +74,36 @@ CREATE TABLE students (
 ## Screenshots
 
 ### Student List Page
-![Student List](/images/student-list.png)
+![Student List](./images/student-list.png)
 
 ### Add Student Form
-![Add Student](/images/add-student.png)
+![Add Student](./images/add-student.png)
 
 ### Edit Student Form
-![Edit Student](/images/edit-student.png)
+![Edit Student](./images/edit-student.png)
 
 ### Delete Confirmation
-![Delete Confirmation](/images/delete-confirmation.png)
+![Delete Confirmation](./images/delete-confirmation.png)
 
 ### Analytics Dashboard
-![Analytics Dashboard](/images/analytics.png)
+![Analytics Dashboard](./images/analytics.png)
 
 ## API Screenshots
 
 ### GET All Students
-![GET All Students](/images/api-get-all.png)
+![GET All Students](./images/api-get-all.png)
 
 ### GET Student by ID
-![GET Student by ID](/images/api-get-by-id.png)
+![GET Student by ID](./images/api-get-by-id.png)
 
 ### POST Create Student
-![POST Create Student](/images/api-post.png)
+![POST Create Student](./images/api-post.png)
 
 ### PUT Update Student
-![PUT Update Student](/images/api-put.png)
+![PUT Update Student](./images/api-put.png)
 
 ### DELETE Student
-![DELETE Student](/images/api-delete.png)
+![DELETE Student](./images/api-delete.png)
 
 ## Setup and Installation
 
