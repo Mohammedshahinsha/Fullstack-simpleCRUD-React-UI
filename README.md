@@ -2,34 +2,66 @@
 
 A fullstack student management system with React frontend and Express/PostgreSQL backend with complete CRUD functionality
 
-## GET /api/students
+## Screenshots
 
+### Student List
+![Student List](./images/student-list.png)
+
+### Add Student
+![Add Student](./images/add-student.png)
+
+### Edit Student
+![Edit Student](./images/edit-student.png)
+
+### Delete Confirmation
+![Delete Confirmation](./images/delete-confirmation.png)
+
+### Analytics Dashboard
+![Analytics](./images/analytics.png)
+
+### API Screenshots
+
+#### GET All Students
+![GET All Students](./images/api-get-all.png)
+
+#### GET Student by ID
+![GET Student by ID](./images/api-get-by-id.png)
+
+#### POST Create Student
+![POST Create Student](./images/api-post.png)
+
+#### PUT Update Student
+![PUT Update Student](./images/api-put.png)
+
+#### DELETE Student
+![DELETE Student](./images/api-delete.png)
+
+
+## API Documentation
+
+### GET /api/students
 * Description: Retrieves a list of all students
 * Response: Array of student objects
 * Status Code: 200 OK (success)
 
-## GET /api/students/:id
-
+### GET /api/students/:id
 * Description: Retrieves a specific student by ID
 * Response: Student object
 * Status Code: 200 OK (success), 404 Not Found (invalid ID)
 
-## POST /api/students
-
+### POST /api/students
 * Description: Creates a new student record
 * Request Body: Student data (name, roll number, email, mobile)
 * Response: Created student object with generated ID
 * Status Code: 201 Created (success), 400 Bad Request (validation error)
 
-## PUT /api/students/:id
-
+### PUT /api/students/:id
 * Description: Updates an existing student record
 * Request Body: Updated student data
 * Response: Updated student object
 * Status Code: 200 OK (success), 404 Not Found (invalid ID), 400 Bad Request (validation error)
 
-## DELETE /api/students/:id
-
+### DELETE /api/students/:id
 * Description: Removes a student record
 * Response: No content
 * Status Code: 204 No Content (success), 404 Not Found (invalid ID)
@@ -47,18 +79,6 @@ CREATE TABLE students (
   mobile TEXT NOT NULL
 );
 ```
-
-## Screenshots
-
-### Application Screenshot
-![Application Screenshot](./images/app-screenshot.jpg)
-
-The Student Management System features a clean, responsive interface with the following components:
-
-- **Student List**: View all students with search functionality
-- **Add/Edit Forms**: Create and update student records with validation
-- **Delete Confirmation**: Prevent accidental deletions with confirmation dialog
-- **Analytics Dashboard**: View student statistics and metrics
 
 ## API Tests
 
@@ -218,4 +238,3 @@ Response (204 No Content):
 ├── shared/               # Shared code between frontend and backend
 │   └── schema.ts         # Database schema and validation
 └── drizzle.config.ts     # Drizzle ORM configuration
-```
