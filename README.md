@@ -1,61 +1,38 @@
 # Student Management System
 
-A full-stack student management application built with React, Express, and PostgreSQL.
+A fullstack student management system with React frontend and Express/PostgreSQL backend with complete CRUD functionality
 
-## Features
+## GET /api/students
 
-- Create, Read, Update, and Delete student records
-- Store student data including name, roll number, email, and mobile number
-- Search functionality for filtering students
-- Analytics dashboard with student statistics
-- Responsive design for all device sizes
+* Description: Retrieves a list of all students
+* Response: Array of student objects
+* Status Code: 200 OK (success)
 
-## Technologies Used
+## GET /api/students/:id
 
-### Frontend
-- React
-- TypeScript
-- TanStack Query (React Query)
-- Shadcn UI Components
-- React Hook Form with Zod validation
-- Tailwind CSS for styling
+* Description: Retrieves a specific student by ID
+* Response: Student object
+* Status Code: 200 OK (success), 404 Not Found (invalid ID)
 
-### Backend
-- Express.js
-- PostgreSQL with Drizzle ORM
-- RESTful API design
-- Zod for schema validation
+## POST /api/students
 
-## API Endpoints
+* Description: Creates a new student record
+* Request Body: Student data (name, roll number, email, mobile)
+* Response: Created student object with generated ID
+* Status Code: 201 Created (success), 400 Bad Request (validation error)
 
-The application provides the following API endpoints:
+## PUT /api/students/:id
 
-### GET /api/students
-- Description: Retrieves a list of all students
-- Response: Array of student objects
-- Status Code: 200 OK
+* Description: Updates an existing student record
+* Request Body: Updated student data
+* Response: Updated student object
+* Status Code: 200 OK (success), 404 Not Found (invalid ID), 400 Bad Request (validation error)
 
-### GET /api/students/:id
-- Description: Retrieves a specific student by ID
-- Response: Student object
-- Status Code: 200 OK (success), 404 Not Found (invalid ID)
+## DELETE /api/students/:id
 
-### POST /api/students
-- Description: Creates a new student record
-- Request Body: Student data (name, roll number, email, mobile)
-- Response: Created student object with generated ID
-- Status Code: 201 Created (success), 400 Bad Request (validation error)
-
-### PUT /api/students/:id
-- Description: Updates an existing student record
-- Request Body: Updated student data
-- Response: Updated student object
-- Status Code: 200 OK (success), 404 Not Found (invalid ID), 400 Bad Request (validation error)
-
-### DELETE /api/students/:id
-- Description: Removes a student record
-- Response: No content
-- Status Code: 204 No Content (success), 404 Not Found (invalid ID)
+* Description: Removes a student record
+* Response: No content
+* Status Code: 204 No Content (success), 404 Not Found (invalid ID)
 
 ## Database Schema
 
@@ -74,36 +51,36 @@ CREATE TABLE students (
 ## Screenshots
 
 ### Student List Page
-![Student List](./images/student-list.png)
+![Student List](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/student-list.png)
 
 ### Add Student Form
-![Add Student](./images/add-student.png)
+![Add Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/add-student.png)
 
 ### Edit Student Form
-![Edit Student](./images/edit-student.png)
+![Edit Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/edit-student.png)
 
 ### Delete Confirmation
-![Delete Confirmation](./images/delete-confirmation.png)
+![Delete Confirmation](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/delete-confirmation.png)
 
 ### Analytics Dashboard
-![Analytics Dashboard](./images/analytics.png)
+![Analytics Dashboard](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/analytics.png)
 
 ## API Screenshots
 
 ### GET All Students
-![GET All Students](./images/api-get-all.png)
+![GET All Students](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-get-all.png)
 
 ### GET Student by ID
-![GET Student by ID](./images/api-get-by-id.png)
+![GET Student by ID](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-get-by-id.png)
 
 ### POST Create Student
-![POST Create Student](./images/api-post.png)
+![POST Create Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-post.png)
 
 ### PUT Update Student
-![PUT Update Student](./images/api-put.png)
+![PUT Update Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-put.png)
 
 ### DELETE Student
-![DELETE Student](./images/api-delete.png)
+![DELETE Student](https://github.com/Mohammedshahinsha/Fullstack-simpleCRUD-React-UI/raw/main/images/api-delete.png)
 
 ## Setup and Installation
 
